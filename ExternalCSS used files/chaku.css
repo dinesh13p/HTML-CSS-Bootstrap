@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav{
+    width:100vw;
+    height:15vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    width:95%;
+    height:100%;
+    border: 2px solid red;
+    display: flex;
+}
+.nav1{
+    flex: 0.3;
+    background-image: url("https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+}
+.nav2{
+    flex: 0.5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:11%;
+}
+.nav3{
+    flex: 0.3;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram {
+    background: rgb(207, 15, 153);
+    color: white;
+  }
+.main1>div{
+    flex: 1;
+}
+.main1{
+    height: 50vh;
+    width: 100vw;
+    display:flex;
+}
+.container-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+.container-2{
+    background-image:url("download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p1{
+    width:50%;
+    height:fit-content;
+}
+.buy{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+.main2>div{
+    flex:1;
+}
+.main2{
+    height:50vh;
+    width:100vw;
+    display:flex;
+}
+.container-3{background-image:url("buddha\ air.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+.p2{
+    width:50%;
+    height: fit-content;
+}
+.book{
+    background-color: rgb(21, 225, 21);
+    color: white;
+    padding: 10px;   
+}
